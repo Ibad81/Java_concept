@@ -7,6 +7,13 @@ public class Mythread67 extends Thread{
     }
 }
 class DemoException{
+    public static void main(String[] args) {
+        Mythread67 obj = new Mythread67();
+        obj.start();
+        for (int i=0; i<10;i++){
+            System.out.println("Main Thread"+1);
+        }
+    }
     
 
 }
