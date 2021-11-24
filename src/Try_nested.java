@@ -1,8 +1,8 @@
 //public class Try_nested {
 //}
 
-public class NestedTryBlock{
-    public static void main(String args[]){
+class NestedTryBlock{
+    public static void main(String[]args){
         //outer try block
         try{
             //inner try block 1
