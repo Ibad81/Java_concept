@@ -4,7 +4,7 @@ class Amount1{
     {
         int balance=1000;
     }
-    public void  withdraw(int amt){
+    public synchronized void  withdraw(int amt){
         try {
             Thread.sleep(1000);
         }
