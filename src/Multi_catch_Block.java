@@ -1,8 +1,11 @@
 public class Multi_catch_Block {
     public static void main(String[] args) {
         try{
-            int a[]=new int[5];
-            a[5]=30/0;
+//            int a[]=new int[5];
+//            System.out.println(a[10]);
+//            a[5]=30/0;
+            String s=null;
+            System.out.println(s.length());
         }catch (ArithmeticException e){
             System.out.println("Arthmetic Exception occurs");
         }
@@ -16,3 +19,5 @@ public class Multi_catch_Block {
 
     }
 }
+
+
