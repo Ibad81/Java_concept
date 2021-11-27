@@ -1,32 +1,16 @@
-public class try_catch_block {
-//
-//    Example 1:
-//
-//    public static void main(String[] args) {
-//        try
-//        {
-//            int data=50/0; //may throw exception
-//        }
-//        //handling the exception
-//        catch(ArithmeticException e)
-//        {
-//            System.out.println(e);
-//        }
-//        System.out.println("rest of the code");
-//    }
 
-
+public class try_catch_block{
     public static void main(String[] args) {
-        try {
-            int data = 50 / 0; //may throw exception
-            // if exception occurs, the remaining statement will not exceute
-            System.out.println("rest of the code");
-        }
-        // handling the exception
-        catch (ArithmeticException e) {
-            System.out.println(e);
+        try{
+            System.out.println(50/0);
+        }catch (Exception obj){
+
+            System.out.println(obj);
         }
     }
 }
+
+
+
 
 
