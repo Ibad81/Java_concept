@@ -10,24 +10,41 @@
 //    }
 //}
 
-
-
-import java.util.Scanner;
+//
+//
+//import java.util.Scanner;
+//
+//public class try_catch_block {
+//    public static void main(String[] args) {
+//        try{
+//            Scanner sc =new Scanner(System.in);
+//            int a=sc.nextInt();
+//        }catch(Exception obj){
+//            System.out.println(obj);
+//        }
+//       finally {
+//            System.out.println("Final Block Execute");
+//
+//        }
+//    }
+//}
 
 public class try_catch_block {
     public static void main(String[] args) {
+        int i=50;
+        int j=0;
+
         try{
-            Scanner sc =new Scanner(System.in);
-            int a=sc.nextInt();
-        }catch(Exception obj){
-            System.out.println(obj);
+            int data=i/j;
         }
-       finally {
-            System.out.println("Final Block Execute");
+        catch(Exception e){
+            int data=i/0;
 
         }
+        System.out.println("rest of code");
     }
 }
+
 
 
 
