@@ -76,8 +76,34 @@
 //}
 
 
-public class try_catch_block{
+//public class try_catch_block{
+//    public static void main(String[] args) {
+//        try{
+//            int arr[]={1,2,3};
+//        }catch (ArrayIndexOutOfBoundsException e){
+//            System.out.println(e);
+//        }
+//        System.out.println("rest of the code");
+//    }
+//
+//}
 
+//TO SAVE THE FILE IN ANY FOLDER
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class try_catch_block{
+    public static void main(String[] args) {
+        PrintWriter pw;
+        try{
+            pw=new PrintWriter("jtp.txt");
+            pw.println("Saved");
+        }catch (FileNotFoundException e){
+            System.out.println(e);
+        }
+        System.out.println("File Saved Sucessfully");
+    }
 }
 
 
