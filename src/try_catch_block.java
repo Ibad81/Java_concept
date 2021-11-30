@@ -97,7 +97,7 @@ public class try_catch_block{
     public static void main(String[] args) {
         PrintWriter pw;
         try{
-            pw=new PrintWriter("jtp.txt");
+            pw=new PrintWriter("java.txt");
             pw.println("Saved");
         }catch (FileNotFoundException e){
             System.out.println(e);
